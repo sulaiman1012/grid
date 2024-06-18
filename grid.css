@@ -1,0 +1,55 @@
+.card {
+  background-color: aqua;
+  padding: 20px;
+  gap: 1rem;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.card-1 {
+  background-color: violet;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  grid-column: span 2;
+}
+
+.card-2 {
+  background-color: violet;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  grid-row: span 2;
+}
+
+.card-3 {
+  background-color: violet;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  grid-row: span 2;
+}
+
+.card-4 {
+  background-color: violet;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.card-5 {
+  background-color: violet;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  grid-column: span 2;
+}
+
+@media (max-width: 700px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+}
